@@ -16,16 +16,12 @@ Category.hasMany(Product, {
 
 // Products belongToMany Tags (through ProductTag)
 Product.belongsToMany(Tag, {
-  through: Product,
-  as: 'product_tags',
-  foreignKey: 'tag_id'
+  through: ProductTag,
 });
 
 // Tags belongToMany Products (through ProductTag)
 Tag.belongsToMany(Product, {
   through: ProductTag,
-  as: 'tags',
-  foreignKey: 'product_id'
 });
 
 module.exports = {
@@ -34,8 +30,3 @@ module.exports = {
   Tag,
   ProductTag,
 };
-
-// db.sequelize = sequelize;
-// db.Sequelize = Sequelize;
-
-// module.exports = db;
