@@ -6,7 +6,7 @@
 Use this application to create and manage products, categories and tag information
 
 ## Demo Video
-
+https://drive.google.com/file/d/1F3zVbB5uKwacxEBxjY9avcbN9t8zoDLS/view?usp=sharing
 
 ## Table of Contents
 * [Installation Details](#install)
