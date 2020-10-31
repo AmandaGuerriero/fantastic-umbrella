@@ -1,6 +1,6 @@
 # E-commerce Back End
 
-[![Github license](https://img.shields.io/badge/license-MIT-blue.svg)]
+![Github license](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ## Description
 Use this application to create and manage products, categories and tag information
